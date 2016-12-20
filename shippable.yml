@@ -10,6 +10,6 @@ build:
     - mkdir -p shippable/codecoverage
     - mvn install
     - cp -r target shippable/codecoverage
-    - wget https://gist.githubusercontent.com/ankunath/6b210d600556de79fed57dcb2c1d2f58/raw/1e80dbdd54f32c3305263a88c26d842d7ad049bb/mysample.xml -O shippable/codecoverage/target/site/jacoco/jacoco.xml
+    - wget https://gist.githubusercontent.com/ankunath/6b210d600556de79fed57dcb2c1d2f58/raw/a0c40139ca9493e75aada509212b2f8dfbbb0b8e/mysample.xml -O shippable/codecoverage/target/site/jacoco/jacoco.xml
     #- wget https://gist.githubusercontent.com/ankunath/b3e0ac9b8f1a52664743d79c9f660478/raw/4d9835ed19b3c1e36ee6761f337ccd68709662f9/myjacoco.xml -O shippable/codecoverage/target/site/jacoco/jacoco.xml
     #- cat shippable/codecoverage/target/site/jacoco/jacoco.xml
